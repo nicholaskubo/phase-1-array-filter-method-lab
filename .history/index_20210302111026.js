@@ -20,28 +20,8 @@ function fuzzyMatch (array, name) {
 
 console.log(fuzzyMatch(drivers, `Sa`));
 
-
-
-const driversArray = [
-    {
-      name: 'Bobby',
-      hometown: 'Pittsburgh' },
-    {
-      name: 'Sammy',
-      hometown: 'New York' } ,
-    {
-      name: 'Sally',
-      hometown: 'Cleveland' },
-    {
-      name: 'Annette',
-      hometown: 'Los Angeles' },
-    {
-      name: 'Bobby',
-      hometown: 'Tampa Bay' }
-  ];
-
 function matchName(array, name) {
     return array.filter (nameMatch => nameMatch.name === name)
 }
 
-console.log(matchName(driversArray, `Bobby`))
+console.log(matchName())
